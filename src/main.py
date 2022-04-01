@@ -8,7 +8,7 @@ from google.cloud import pubsub_v1,bigquery
 import time
 
 def gsheet2df(gsheet):
-    """ Converts Google sheet data to a Pandas DataFrame.
+    """ Converts Google sheet data to a Pandas DataFrame.  
     Note: This script assumes that your data contains a header file on the first row!
     Also note that the Google API returns 'none' from empty cells - in order for the code
     below to work, you'll need to make sure your sheet doesn't contain empty cells,
