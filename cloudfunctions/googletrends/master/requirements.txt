@@ -1,0 +1,8 @@
+# Function dependencies, for example:
+# package>=version
+pandas
+oauth2client
+httplib2
+google-api-python-client
+google-cloud-pubsub>=2.2.0
+google-cloud-bigquery
