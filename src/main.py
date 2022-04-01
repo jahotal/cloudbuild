@@ -12,7 +12,7 @@ def gsheet2df(gsheet):
     Note: This script assumes that your data contains a header file on the first row!
     Also note that the Google API returns 'none' from empty cells - in order for the code
     below to work, you'll need to make sure your sheet doesn't contain empty cells,
-    or update the code to account for such instances.
+    or update the code to account for such instances. 
     """
     header = gsheet.get('values', [])[0]   # Assumes first line is header!
     values = gsheet.get('values', [])[1:]  # Everything else is data.
